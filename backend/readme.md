@@ -1,7 +1,7 @@
 # ToDo App
 
 This is a simple ToDo application built using Django. The app allows users to create, update, delete, and toggle the completion status of tasks. It also provides REST API endpoints for managing tasks programmatically.
-
+# Features and limitations 
 ## Features
 
 - Add new tasks with a title, description, due date, and due time.
@@ -10,6 +10,25 @@ This is a simple ToDo application built using Django. The app allows users to cr
 - Delete tasks.
 - View all tasks in a user-friendly interface.
 - REST API for task management (GET, POST, PUT, DELETE).
+## limitations 
+- No Task Prioritization or Categorization
+Tasks are displayed in the order they were created, and there is no built-in feature for setting priorities or categorizing tasks (e.g., work, personal, urgent).​
+
+- No Data Export or Import
+There is no functionality to export tasks to a file (like CSV or JSON) or import tasks from an external source, which limits data portability and backup options.​
+
+- Limited Search and Filter Capabilities
+The app does not provide advanced search or filter options (e.g., by due date, completion status, or keyword), making it harder to manage a large number of tasks efficiently.
+# Tools
+- Django Framework: The core backend framework for building web applications and managing the app logic, models, views, and URLs.​
+- Python: The programming language used for writing Django code and backend logic.​
+- SQLite: The default database engine for storing task data in Django projects, though PostgreSQL or MySQL can also be used for larger apps.​
+- HTML, CSS, JavaScript: Used for creating the frontend templates and user interface, often with libraries like Bootstrap for styling.​
+- Django REST Framework (DRF): Used if you want to expose REST API endpoints for tasks (GET, POST, PUT, DELETE).​
+- Git: For version control and managing code changes.​
+- Virtual Environment (venv): To isolate project dependencies and avoid conflicts with other Python projects.​
+- Text Editor/IDE: Tools like VS Code, PyCharm, or Sublime Text for coding.​
+- Browser: For testing and accessing the app locally at http://127.0.0.1:8000/.
 
 ## Project Structure
 
