@@ -45,7 +45,7 @@ backend/
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/prem068/Todo-django
+   git clone [https://github.com/Nithin-Raj-C-123/todotodo]
    cd backend
    ```
 
